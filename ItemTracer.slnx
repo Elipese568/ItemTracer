@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="ItemTracer.Admin/ItemTracer.Admin.csproj" />
+  <Project Path="ItemTracer.Api/ItemTracer.Api.csproj" />
+  <Project Path="ItemTracer.Core/ItemTracer.Core.csproj" />
+  <Project Path="ItemTracer.Infrastructure/ItemTracer.Infrastructure.csproj" />
+</Solution>
