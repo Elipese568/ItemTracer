@@ -8,6 +8,11 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.2" />
+	<PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="10.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ItemTracer.Infrastructure\ItemTracer.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>

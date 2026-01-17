@@ -2,5 +2,16 @@
 
 GET {{ItemTracer.Api_HostAddress}}/weatherforecast/
 Accept: application/json
+###
 
+POST {{ItemTracer.Api_HostAddress}}/api/testlog?message=114514
+###
+
+GET {{ItemTracer.Api_HostAddress}}/api/testlog/
+###
+
+GET {{ItemTracer.Api_HostAddress}}/api/testlog/6d426ce7-abbb-4de8-a080-8ed312e14cec
+###
+
+DELETE {{ItemTracer.Api_HostAddress}}/api/testlog/6d426ce7-abbb-4de8-a080-8ed312e14cec
 ###
