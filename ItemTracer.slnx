@@ -1,6 +1,6 @@
 <Solution>
-  <Project Path="ItemTracer.Admin/ItemTracer.Admin.csproj" />
   <Project Path="ItemTracer.Api/ItemTracer.Api.csproj" />
   <Project Path="ItemTracer.Core/ItemTracer.Core.csproj" />
+  <Project Path="ItemTracer.Dashboard/ItemTracer.Dashboard.csproj" Id="354ac4e6-68b3-44c9-be8a-3dbd48d685f8" />
   <Project Path="ItemTracer.Infrastructure/ItemTracer.Infrastructure.csproj" />
 </Solution>

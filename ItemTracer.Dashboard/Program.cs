@@ -1,16 +1,7 @@
-using ItemTracer.Core;
-
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddRazorPages();
-builder.Services.AddHttpClient(HttpClientNames.ItemTracerApi, (serviceProvider, client) =>
-{
-    var config = serviceProvider.GetRequiredService<IConfiguration>();
-    var baseUrl = config["Api:BaseUrl"];
-
-    client.BaseAddress = new Uri(baseUrl!);
-});
 
 var app = builder.Build();
 

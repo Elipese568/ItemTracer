@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
-namespace ItemTracer.Admin.Pages
+namespace ItemTracer.Dashboard.Pages
 {
     public class IndexModel : PageModel
     {
